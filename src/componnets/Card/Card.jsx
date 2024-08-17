@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Plus, X } from 'react-feather'
+import { Popover } from 'react-tiny-popover'
 
 const Card = () => {
     const [show, setShow ] = useState(false);
