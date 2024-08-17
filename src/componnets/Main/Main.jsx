@@ -1,5 +1,6 @@
 import React from 'react'
 import { Edit, MoreHorizontal, UserPlus } from 'react-feather'
+import Card from '../Card/Card'
 
 const Main = () => {
   return (
@@ -25,6 +26,7 @@ const Main = () => {
                   <button className='hover:bg-gray-500 p-1 rounded-sm'><Edit></Edit></button>
                 </span>
               </div>
+              <Card/>
             </div>
           </div>
 
