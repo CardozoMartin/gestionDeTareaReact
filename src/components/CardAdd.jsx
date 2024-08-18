@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { Plus, X } from 'react-feather'
-import { Popover } from 'react-tiny-popover'
+import React, { useState } from 'react';
+import { X, Plus } from 'react-feather';
 
-const Card = (props) => {
+const CardAdd = (props) => {
+
     const [card,setCard] = useState('');
     const [show,setShow] = useState(false);
 
@@ -37,7 +37,7 @@ const Card = (props) => {
             </button>}
             </div>
         </div>
-  )
+    );
 }
 
-export default Card
+export default CardAdd;
